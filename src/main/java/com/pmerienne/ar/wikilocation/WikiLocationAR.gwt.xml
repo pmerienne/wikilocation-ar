@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to="wikilocationar">
+	<!-- GWT -->
+	<inherits name="com.google.gwt.user.User" />
+
+	<!-- GWT-AR -->
+	<inherits name="com.pmerienne.gwt.AR" />
+
+	<!-- Resty GWT -->
+	<inherits name="org.fusesource.restygwt.RestyGWT" />
+
+	<entry-point class="com.pmerienne.ar.wikilocation.client.Application" />
+	<source path="client" />
+</module>
